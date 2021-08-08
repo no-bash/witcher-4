@@ -1,0 +1,20 @@
+{"frames": {
+
+"witcher.png":
+{
+	"frame": {"x":0,"y":0,"w":158,"h":263},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":263},
+	"sourceSize": {"w":158,"h":263}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "witcher.png",
+	"format": "RGBA8888",
+	"size": {"w":158,"h":263},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:59821d56d03b08642880556872d127b0:3d7dfa21f4912b7e6650cc5b6c511003:ab5e6a5b04b2a1c592ddcca2bcbda8b2$"
+}
+}

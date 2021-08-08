@@ -1,0 +1,20 @@
+{"frames": {
+
+"igni.png":
+{
+	"frame": {"x":0,"y":0,"w":424,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":424,"h":380},
+	"sourceSize": {"w":424,"h":380}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "signs.png",
+	"format": "RGBA8888",
+	"size": {"w":424,"h":380},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:247fbf2417771b9dc96043ab95e3711b:8b4e5199fed6d4e4564991194eafdd82:0834b43d53a93e9e2417049f1d35bcf8$"
+}
+}
