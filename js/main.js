@@ -123,11 +123,17 @@ function setup() {
 		if(keys['32']){
 			jump();
 		}
-		//signs
+		//1 igni
 		if(keys['49']){
+			
 			signIgni()
 			
 
+		}
+		//2 aard
+		if(keys['50']){
+			signAard()
+			
 		}
 	}
 
@@ -182,6 +188,30 @@ function setup() {
 
 		return igni;
 	}
+
+
+
+	function signAard(e){
+		console.log('IGNI!');
+
+		let aard = createAard();
+		signs.push(aard);
+
+	}
+
+	function createAard(){
+		let aard = new Sprite( signsSprite["aard.png"] );
+		// igni.anchor.set(0.5)
+		aard.position.set(witcher.x , witcher.y)
+		aard.speed = signsSpeed;
+		aard.scale.set(0.1)
+		
+		gameScene.addChild( aard );
+
+		return aard;
+	}
+
+
 
 
 
